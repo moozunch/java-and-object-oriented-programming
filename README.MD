@@ -1,0 +1,1 @@
+semoga bisa rajin ya bun, berusaha meninggalkan trauma coding sementara ituh
