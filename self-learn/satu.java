@@ -22,5 +22,7 @@ public class Satu { //curly brackets to starrt end code blocks. each code statem
         System.out.println("nama saya " + nama + " berumur " + angka); //concatenation
 
         final int constanta = 10; //final means constant, cannot be changed.
+
+        //besides all general rules for naming a variables, variables could also start with $ and _.
     }
 }
