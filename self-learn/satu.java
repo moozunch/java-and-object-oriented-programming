@@ -6,7 +6,8 @@
 
 
 //the name of java file must match the class name
-public class Satu { //curly brackets to starrt end code blocks. each code statement also ends with a semicolon.
+public class satu {
+    //curly brackets to starrt end code blocks. each code statement also ends with a semicolon.
     public static void main(String[] args) {
         //any code inside the main will be executed, main is a must.
         System.out.println("Hello World"); //print Hello World, new line each print. print dulu baru enter line.
