@@ -30,5 +30,32 @@ public class datatypes {
         //non-primitive data types
         String nama = "Annisa"; //String is a class, not a data
         System.out.println(nama);
+
+
+        //Type casting, converting one primitive data types to another
+        //1. Widening Casting (automatically) - converting a smaller type to a larger type size
+        //byte -> short -> char -> int -> long -> float -> double
+        int myInt = 9;
+        double myDouble = myInt; //Automatic casting: int to double
+        System.out.println("widening nilai awal: " + myInt);
+        System.out.println("widening nilai awal: " + myDouble);
+
+        //2. Narrowing Casying (manually) - converting a larger type to a smaller size type
+        double myDouble2 = 9.78d;
+        int myInt2 = (int) myDouble2; //Manual casting: double to int
+        System.out.println("narrowing nilai awal: " + myDouble);
+        System.out.println("narrowing nilai akhir: " + myInt2);
+
+
+
+        //Contoh, kita mau buat program yang mengkalkulasikan persentasi dari skor user dalam hubungan dengan skor maksimal.
+        int maxScore = 500;
+        int userScore = 423;
+        float percentage = (float) userScore / maxScore * 100.0f;
+        System.out.println("Persentasi skor adalah " + percentage + "%");
+
+
+        //untuk materi selanjutnya operator, tetap sama seperti pada bahasa lainnya.
+
     }
 }
