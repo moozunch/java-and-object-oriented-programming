@@ -16,5 +16,43 @@ public class Conditional {
         System.out.println(myAge >= votingAge); //true, now we want if true kita mau dia melakukan action, let's use conditional statemtns.
 
 
+        if (myAge >= votingAge) {
+            System.out.println("You are old enough to vote!");
+        } else if (myAge < votingAge) {
+            System.out.println("You are not old enough to vote!");
+        } else {
+            System.out.println("kaga ada else sih ;b");
+        }
+
+        myAge = 13;
+        //Ternary Operator
+        System.out.println(myAge >= votingAge ? "You are old enough to vote!" : "You are not old enough to vote!");
+
+        //Switch statement - The value of the expression is compared with the values of each case.
+        int day = 2;
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+        }
+
     }
 }
